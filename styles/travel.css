@@ -110,6 +110,7 @@
 }
 
 .banner-input{
+  display: flex;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
   padding:10px ;
@@ -146,11 +147,15 @@
     color: white;
     border-radius: 8px;
     background: #FF5400;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
 }
 .find-button-design{
   font-weight: 700;
-  padding-top: 20px;
+  
+
   color: #FFF;
   font-size: 16px;
 
